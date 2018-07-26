@@ -1,5 +1,23 @@
-.header {
-  background-color: #222;
-  color: #fff;
-  padding: 20px;
+// .header {
+//   background-color: #222;
+//   color: #fff;
+//   padding: 20px;
+// }
+
+.app-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 30px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.nav-item {
+    margin: 10px;
+}
+
+.nav-link {
+    color: #FFFFFF;
 }
