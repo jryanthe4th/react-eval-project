@@ -1,0 +1,25 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.list {
+    position: absolute;
+    text-align: center;
+    padding-left: 0px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    // height: 50px;
+    width: 100%;
+    bottom: 0px;
+    background-color: #343a40;
+    // li {
+    //     display: inline-block;
+    // }
+    a {
+        font-size: 4em;
+        margin: 10px;
+
+        li {
+            // color: #343a40;
+            color: #ffffff;
+        }
+    }
+}

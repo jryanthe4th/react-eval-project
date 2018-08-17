@@ -5,6 +5,9 @@ import {Router, Switch, Route} from 'react-router-dom'
 import history from 'services/history'
 import App from './views/App'
 
+// import Header from './components/Header'
+// import Footer from './components/Footer'
+
 export default class ApplicationNode extends Component {
   static propTypes = {
     store: PropTypes.object.isRequired

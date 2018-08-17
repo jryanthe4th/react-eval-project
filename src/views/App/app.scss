@@ -1,5 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Hind');
+// @import url('https://fonts.googleapis.com/css?family=Hind');
 
-.app {
-    font-family: 'Hind', sans-serif;
+.App {
+    // font-family: 'Hind', sans-serif;
 }
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+

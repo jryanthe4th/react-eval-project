@@ -6,7 +6,10 @@ import {connect} from 'react-redux'
 import {bindActionCreators} from 'redux'
 import {withRouter} from 'react-router-dom'
 
-import HeaderContainer from 'components/Header/HeaderContainer'
+import Header from 'components/Header'
+import HomePage from 'components/Home'
+import Footer from 'components/Footer'
+
 import {getUser} from 'actions/userActions'
 import {getRepos} from 'actions/reposActions'
 import {getEvents} from 'actions/eventsActions'
@@ -36,8 +39,16 @@ export default class App extends Component {
   }
   render () {
     return (
-      <div styleName='app'>
-        <HeaderContainer />
+      <div styleName='App'>
+        <div className='header-container'>
+          <Header />
+        </div>
+        <div className='content-container'>
+          <HomePage />
+        </div>
+        <div className='footer-container'>
+          <Footer />
+        </div>
       </div>
     )
   }
